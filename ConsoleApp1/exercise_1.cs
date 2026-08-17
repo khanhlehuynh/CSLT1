@@ -51,6 +51,7 @@
         Console.WriteLine(" Enter a character:");
         int c= Console.Read();
         Console.WriteLine($"The ASCII value of the character is: {c}" );
+
     }
 
 
