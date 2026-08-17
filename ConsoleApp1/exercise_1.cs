@@ -51,7 +51,23 @@
         Console.WriteLine(" Enter a character:");
         int c= Console.Read();
         Console.WriteLine($"The ASCII value of the character is: {c}" );
-
+        // to Calculate the area of a circle
+        Console.WriteLine(" Enter the radius of the cirle:");
+        float radius = Convert.ToSingle(Console.ReadLine());
+        float area = 3.14f * radius * radius;
+        Console.WriteLine($"The area of the circle is: {area}");
+        // to calculate the area of a square
+        Console.WriteLine(" Enter the side length of the square:");
+        float side = Convert.ToSingle(Console.ReadLine());
+        float squareArea = side * side;
+        Console.WriteLine($"The area of the square is: {squareArea}");
+        // to convert day to years, weeks and days
+        Console.WriteLine(" Enter the number of days: ");
+        int Days = Convert.ToInt32(Console.ReadLine());
+        int years = Days / 365;
+        int weeks = (Days - years * 365) / 7;
+        int remainingDays = Days - (years * 365 + weeks * 7);
+        Console.WriteLine($"{Days} days is equal to {years} years, {weeks} weeks, and {remainingDays} days.");
     }
 
 
