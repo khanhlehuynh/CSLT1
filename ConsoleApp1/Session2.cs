@@ -1,6 +1,6 @@
-﻿internal class exercise_1
+﻿internal class Session2
 {
-    private static void Main(string[] args)
+    private static void Bleee(string[] args)
     { // to Add/Sum Two numbers
         Console.WriteLine(" Enter the first number: ");
         int num1 = Convert.ToInt32(Console.ReadLine());

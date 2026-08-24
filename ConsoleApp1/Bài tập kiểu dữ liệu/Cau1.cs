@@ -7,7 +7,7 @@ namespace ConsoleApp1.Bài_tập_kiểu_dữ_liệu
 {
     internal class Cau1
        
-    { private static void Main(string[] args)
+    { private static void Meo(string[] args)
 
             
         {
