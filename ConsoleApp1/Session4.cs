@@ -6,7 +6,7 @@ using System.Text;
 namespace ConsoleApp1
 {
     internal class Session4
-    { static void Main(string[] args)
+    { static void Main1(string[] args)
         { // 1. Nhập vào 2 số nguyên x, y. Tính tổng, hiệu, tích, thương của 2 số đó.
             Console.OutputEncoding = Encoding.UTF8;
 
