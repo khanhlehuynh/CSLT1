@@ -7,11 +7,11 @@ namespace ConsoleApp1
 {
     internal class Session5
     {
-        private static void Main(string[] args)
+        private static void Maixaxn(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
-            numbertriangle();
+        ;
         }
         static void bangnhan15()
         {

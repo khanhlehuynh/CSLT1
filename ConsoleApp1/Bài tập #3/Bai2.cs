@@ -6,7 +6,7 @@ namespace ConsoleApp1.Bài_tập__3
 {
     internal class Bai2
     {
-        static void Main()
+        static void Masfsin()
         {
             Console.OutputEncoding = Encoding.UTF8;
 
