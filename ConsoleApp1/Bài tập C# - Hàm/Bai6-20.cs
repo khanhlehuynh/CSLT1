@@ -6,7 +6,7 @@ namespace ConsoleApp1.Bài_tập_C____Hàm
 {
     internal class Bai6_20
     {
-        static void Main(string[] args)
+        static void Máain(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
         }
@@ -84,7 +84,15 @@ namespace ConsoleApp1.Bài_tập_C____Hàm
 
             return a;
         }
-
+        static double CalculateAverage(int[] arr)
+        {
+            int sum = 0;
+            foreach (int num in arr)
+            {
+                sum += num;
+            }
+            return (double)sum / arr.Length;
+        }
     }
 }
 
